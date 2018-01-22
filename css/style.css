@@ -1,0 +1,88 @@
+article {
+    color: white;
+    text-align: center;
+    background: black;
+    width: 30%;
+    /* box-shadow: 
+    inset 5px 5px 10px grey, 
+    inset -5px -5px 10px blue; */
+
+}
+
+body {
+    color: black;
+    display: inline;
+    background: black;
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding-bottom: 2px;
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    margin-top: 5px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+}
+
+header {
+    
+}
+
+p {
+    padding: 5px;
+    font-size: 1.5em;
+    color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.availability {
+    color: red;
+    font-size: 1.5em;
+}
+
+
+.box {
+    background: rgb(255, 0, 255);
+}
+
+.cone {
+    background: rgb(255,100,0);
+}
+
+.cylinder {
+    background: rgb(0,255,0);
+}
+
+.torus {
+    background: rgb(0, 255, 255);
+}
+
+.pricing {
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+
+
+#product-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+#tag {
+    color: white;
+}
